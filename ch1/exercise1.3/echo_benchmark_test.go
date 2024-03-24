@@ -1,3 +1,15 @@
+// To run the benchmarks, execute the following command:
+// go test -bench=.
+// The output will be similar to:
+// goos: darwin
+// goarch: amd64
+// pkg: github.com/striversity/gotraining/ch1/exercise1.3
+// BenchmarkEcho1-4    10000000               134 ns/op
+// BenchmarkEcho2-4    10000000               134 ns/op
+// BenchmarkEcho3-4    10000000               134 ns/op
+// PASS
+// ok      github.com/striversity/gotraining/ch1/exercise1.3  4.013s
+
 package main
 
 import (
